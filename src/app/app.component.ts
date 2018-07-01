@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  myObj = {
+    name:'avia',
+    anchor:'https://nrg.co.il'
+  }
+  clicked() {
+    console.log('hi');
+  }
+   
 }
+
